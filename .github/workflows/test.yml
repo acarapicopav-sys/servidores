@@ -1,0 +1,8 @@
+name: Prueba runner
+on: [push]
+jobs:
+  prueba:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Hola desde mi runner"
+      - run: hostname
